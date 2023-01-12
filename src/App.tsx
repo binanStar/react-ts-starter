@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
+import "./global.css";
 import "./App.css";
 
 const App = () => {
@@ -7,7 +8,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className="text-red-300">
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
